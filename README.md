@@ -67,4 +67,3 @@ body {
 
 Positioning the background image was tricky. I referred to
 Hatem Henchir's solution (https://www.frontendmentor.io/solutions/profile-card-component-solution-rwvbQN2j8s), to do this.
-Thank you Hatem Henchir.
