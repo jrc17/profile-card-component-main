@@ -8,6 +8,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [The challenge](#the-challenge)
 - [Links](#links)
 - [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -23,8 +25,8 @@ Build a profile card component using HTML and CSS
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/jrc17/profile-card-component-main)
+- Live Site URL: (https://jrc17.github.io/profile-card-component-main/)
 
 ### Built with
 
@@ -34,7 +36,28 @@ Build a profile card component using HTML and CSS
 - CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### What I learned
+
+Instead of using percentage to position the backgroung image, use vh and vw, to position the images relative to the viewport and they won't shift.
+
+```css:
+body {
+  background-color: #19a2ae;
+  font-family: "Kumbh Sans", sans-serif;
+  line-height: 1;
+  min-height: 100vh;
+
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 1rem;
+
+  background-image: url("images/bg-pattern-top.svg"),
+    url("images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 40vh right 50vw, top 40vh left 50vw;
+}
+```
 
 ## Author
 
@@ -42,4 +65,6 @@ Build a profile card component using HTML and CSS
 
 ## Acknowledgments
 
-Positioning the background image was tricky. I referred to Hatem Henchir's solution (https://www.frontendmentor.io/solutions/profile-card-component-solution-rwvbQN2j8s), to do this. Instead of using percentage, use vh and vw, since we don't want the background image to shift.
+Positioning the background image was tricky. I referred to
+Hatem Henchir's solution (https://www.frontendmentor.io/solutions/profile-card-component-solution-rwvbQN2j8s), to do this.
+Thank you Hatem Henchir.
