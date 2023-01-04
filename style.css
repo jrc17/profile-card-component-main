@@ -93,12 +93,12 @@ main {
 }
 .numbers {
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 1.05rem;
 }
 .category-name {
   color: #6a6f81;
   font-size: 0.5rem;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.1rem;
 }
 footer {
   font-size: 11px;
