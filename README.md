@@ -11,7 +11,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [What I learned](#what-i-learned)
 - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -62,8 +61,3 @@ body {
 ## Author
 
 - Frontend Mentor - [@jrc17](https://www.frontendmentor.io/profile/jrc17)
-
-## Acknowledgments
-
-Positioning the background image was tricky. I referred to
-Hatem Henchir's solution (https://www.frontendmentor.io/solutions/profile-card-component-solution-rwvbQN2j8s), to do this.
